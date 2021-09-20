@@ -1,0 +1,29 @@
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 400px;
+}
+.grid div {
+    width: 100px;
+    height: 100px;
+    background-color:yellow;
+    font-size: 60px;
+    color: teal;
+    font-weight: bold;
+    text-align: center;
+}
+body{
+    text-align: center;
+    display: block;
+    margin: 0 3rem;
+    position: absolute;
+    background-color: #000;
+    color: white;
+}
+.game{
+   padding-left: 5rem;
+   padding-right: 5rem ;
+   margin: 2rem 25rem ;
+
+}
