@@ -1,29 +1,33 @@
-.grid{
-    display: flex;
-    flex-wrap: wrap;
-    width: 400px;
-    height: 400px;
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 400px;
 }
 .grid div {
-    width: 100px;
-    height: 100px;
-    background-color:yellow;
-    font-size: 60px;
-    color: teal;
-    font-weight: bold;
-    text-align: center;
+  width: 100px;
+  height: 100px;
+  font-size: 60px;
+  color: teal;
+  font-weight: bold;
+  text-align: center;
+  background: #102128;
 }
-body{
-    text-align: center;
-    display: block;
-    margin: 0 3rem;
-    position: absolute;
-    background-color: #000;
-    color: white;
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(to left, #0f2027, #203a43, #2c5364);
 }
-.game{
-   padding-left: 5rem;
-   padding-right: 5rem ;
-   margin: 2rem 25rem ;
 
+.score-container {
+  color: aliceblue;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 20px;
+}
+#result {
+  color: whitesmoke;
+  font-size: 30px;
 }
